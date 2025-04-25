@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth,windowHeight);
+  let cnv = createCanvas(windowWidth,windowHeight);
   cnv.position(0,0);
   cnv.style('z-index','-2');
   cnv.style('position','absolute');
