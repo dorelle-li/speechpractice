@@ -24,9 +24,10 @@ function setup() {
 }
 
 function draw() {
-
-  // Draw an image at your mouse position
-      tint(255, 80);
-  image(img, mouseX, mouseY, 20,30);
-
-}
+    // leave empty so nothing draws automatically
+  }
+  
+  function mouseDragged() {
+    tint(255, 80); // apply transparency
+    image(img, mouseX, mouseY, 20, 30); // draw image where the mouse is
+  }
